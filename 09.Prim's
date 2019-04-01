@@ -19,7 +19,7 @@ public class Shortest{
           cost[i][j]=in.nextInt();
     for(i=1;i<=n;i++)
     for(j=1;j<=n;j++)
-          t[i][j]=99;
+    t[i][j]=99;
 
     System.out.println("Minimum spanning tree edges and costs are");
     mincost(cost,n,t);
