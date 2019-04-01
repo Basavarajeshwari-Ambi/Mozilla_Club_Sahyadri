@@ -16,7 +16,7 @@ public class Shortest{
     System.out.println("Enter the cost matrix");
     for(i=1;i<=n;i++)
     for(j=1;j<=n;j++)
-          cost[i][j]=in.nextInt();
+    cost[i][j]=in.nextInt();
     for(i=1;i<=n;i++)
     for(j=1;j<=n;j++)
     t[i][j]=99;
