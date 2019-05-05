@@ -48,7 +48,8 @@ public class Student {
             int phone=sc.nextInt();
             s[j].insertrecord(USN, Name, branch, phone);
         }
-
+       
+        System.out.println("USN           "+"Name         "+"Banch    "+"phone");       
         for(int k=0;k<n;k++)                              //Displays all records stored in s[j] 
         {
             s[k].displayrecord();
@@ -57,3 +58,22 @@ public class Student {
     }
     
 }
+
+/*
+OUTPUT:
+Enter the no. of students
+2
+Enter the  USN,Name,Branch,Phone
+4SF17IS001
+AAROHI
+ISE
+8975642310
+Enter the  USN,Name,Branch,Phone
+4SF18IS001
+AKSHIT
+ISE
+9867542301
+USN           NAME         BRANCH    PHONE
+4SF17IS001    AAROHI       ISE       8975642310
+4SF18IS001    AKSHIT       ISE       9867542301
+*/
