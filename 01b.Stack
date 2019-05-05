@@ -79,6 +79,9 @@ public class Stack {
                 case 4:q=0;
                         break;
                         
+                default:System.out.println("Invalid Choice");
+                        break;
+                        
             }
             
         }
@@ -87,3 +90,83 @@ public class Stack {
     
 }
 
+
+
+/*
+OUTPUT:
+Program to perform stack operation
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+1
+Enter the element to be pushed
+6
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+1
+Enter the element to be pushed
+5
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+1
+Enter the element to be pushed
+4
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+1
+Enter the element to be pushed
+3
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+1
+Enter the element to be pushed
+2
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+1
+Enter the element to be pushed
+1
+Stack overflow!!
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+3
+Element in stack are
+2 
+3 
+4 
+5 
+6 
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+2
+The popped element is: 2
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+2
+The popped element is: 3
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+2
+The popped element is: 4
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+3
+Element in stack are
+5 
+6 
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+2
+The popped element is: 5
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+2
+The popped element is: 6
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+2
+Stack underflow!!
+Enter1.Push2.Pop3.Display4.Exit
+Enter the choice
+4
+
+*/
