@@ -94,6 +94,7 @@ public class Stack {
 
 /*
 OUTPUT:
+
 Program to perform stack operation
 Enter1.Push2.Pop3.Display4.Exit
 Enter the choice
